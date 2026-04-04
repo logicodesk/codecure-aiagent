@@ -35,11 +35,14 @@ import BioisosterePanel from './components/BioisosterePanel'
 import NovelModalityPanel from './components/NovelModalityPanel'
 import SimilarMoleculesPanel from './components/SimilarMoleculesPanel'
 import TraceabilityReport from './components/TraceabilityReport'
+import EnvironmentalHazardPanel from './components/EnvironmentalHazardPanel'
+import ChemicalSpaceExplorer from './components/ChemicalSpaceExplorer'
+import ModelPerformancePanel from './components/ModelPerformancePanel'
 import { predictToxicity, fetchExamples } from './lib/mockApi'
 import { APP_NAME, FOOTER_TEXT } from './brand'
 
 const VIEWS = ['Summary', 'Detailed', 'Multi-Target', '3D Structure', '2D Structure']
-const INPUT_MODES = ['SMILES', 'Drug Name', '🎤 Voice AI']
+const INPUT_MODES = ['SMILES', 'Drug Name', '🎤 Voice AI', '🚨 Hazard Alert']
 
 export default function App() {
   const [dark, setDark] = useState(() => {
@@ -408,10 +411,15 @@ export default function App() {
                       dark={dark}
                     />
                   </motion.div>
-                ) : (
+                ) : inputMode === '🎤 Voice AI' ? (
                   <motion.div key="voice-ai"
                     initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }}>
                     <VoiceAssistant onResult={handleVoiceResult} dark={dark} />
+                  </motion.div>
+                ) : (
+                  <motion.div key="hazard-alert"
+                    initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -6 }}>
+                    <EnvironmentalHazardPanel dark={dark} />
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -517,6 +525,8 @@ export default function App() {
                     )}
                     {view === 'Detailed' && (
                       <motion.div key="detailed" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-4">
+                        <ModelPerformancePanel dark={dark} />
+                        <ChemicalSpaceExplorer dark={dark} />
                         <FeatureChart data={result.feature_importance} />
                         <InsightBox insight={result.insight} features={result.features} shap_top5={result.shap_top5} ai_text={result.ai_text} shap_explanation={result.shap_explanation} />
                       </motion.div>
