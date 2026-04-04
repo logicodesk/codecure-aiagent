@@ -1,0 +1,22 @@
+{
+  "name": "codecure-root",
+  "version": "1.0.0",
+  "description": "Root workspace for CodeCure / ToxScout AI",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix frontend --legacy-peer-deps",
+    "build": "npm run build --prefix frontend && pip install -r requirements.txt",
+    "start": "uvicorn backend.api:app --host 0.0.0.0 --port $PORT",
+    "dev": "npm run dev --prefix frontend",
+    "preview": "npm run preview --prefix frontend",
+    "test:backend": "pytest backend/test_toxiguard.py"
+  },
+  "keywords": [
+    "toxscout",
+    "toxicity",
+    "prediction",
+    "ai"
+  ],
+  "author": "CodeCure Team",
+  "license": "ISC"
+}

@@ -1,0 +1,184 @@
+{
+  "compounds": [
+    {
+      "name": "Aspirin", "synonyms": ["acetylsalicylic acid", "asa", "ecotrin", "bayer aspirin"],
+      "smiles": "CC(=O)Oc1ccccc1C(=O)O", "cid": 2244,
+      "formula": "C9H8O4", "mw": 180.16, "toxic": false,
+      "iupac": "2-acetyloxybenzoic acid", "cas": "50-78-2"
+    },
+    {
+      "name": "Caffeine", "synonyms": ["1,3,7-trimethylxanthine", "theine", "guaranine"],
+      "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C", "cid": 2519,
+      "formula": "C8H10N4O2", "mw": 194.19, "toxic": false,
+      "iupac": "1,3,7-trimethylpurine-2,6-dione", "cas": "58-08-2"
+    },
+    {
+      "name": "Ibuprofen", "synonyms": ["advil", "motrin", "nurofen", "brufen"],
+      "smiles": "CC(C)Cc1ccc(cc1)C(C)C(=O)O", "cid": 3672,
+      "formula": "C13H18O2", "mw": 206.28, "toxic": false,
+      "iupac": "2-[4-(2-methylpropyl)phenyl]propanoic acid", "cas": "15687-27-1"
+    },
+    {
+      "name": "Paracetamol", "synonyms": ["acetaminophen", "tylenol", "panadol", "calpol"],
+      "smiles": "CC(=O)Nc1ccc(O)cc1", "cid": 1983,
+      "formula": "C8H9NO2", "mw": 151.16, "toxic": false,
+      "iupac": "N-(4-hydroxyphenyl)acetamide", "cas": "103-90-2"
+    },
+    {
+      "name": "Metformin", "synonyms": ["glucophage", "fortamet", "riomet"],
+      "smiles": "CN(C)C(=N)NC(=N)N", "cid": 3386,
+      "formula": "C4H11N5", "mw": 129.16, "toxic": false,
+      "iupac": "3-(diaminomethylidene)-1,1-dimethylguanidine", "cas": "657-24-9"
+    },
+    {
+      "name": "Morphine", "synonyms": ["ms contin", "oramorph", "kadian"],
+      "smiles": "OC1=CC=C2CC3N(C)CCC34C2=C1OC4", "cid": 5288826,
+      "formula": "C17H19NO3", "mw": 285.34, "toxic": false,
+      "iupac": "(4R,4aR,7S,7aR,12bS)-3-methyl-2,3,4,4a,7,7a-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-7,9-diol", "cas": "57-27-2"
+    },
+    {
+      "name": "Aniline", "synonyms": ["benzenamine", "aminobenzene", "phenylamine"],
+      "smiles": "c1ccc(cc1)N", "cid": 6115,
+      "formula": "C6H7N", "mw": 93.13, "toxic": true,
+      "iupac": "aniline", "cas": "62-53-3"
+    },
+    {
+      "name": "Nitrobenzene", "synonyms": ["nitrobenzol", "oil of mirbane"],
+      "smiles": "c1ccc([N+](=O)[O-])cc1", "cid": 7416,
+      "formula": "C6H5NO2", "mw": 123.11, "toxic": true,
+      "iupac": "nitrobenzene", "cas": "98-95-3"
+    },
+    {
+      "name": "Benzaldehyde", "synonyms": ["benzoic aldehyde", "phenylmethanal"],
+      "smiles": "O=Cc1ccccc1", "cid": 240,
+      "formula": "C7H6O", "mw": 106.12, "toxic": true,
+      "iupac": "benzaldehyde", "cas": "100-52-7"
+    },
+    {
+      "name": "Testosterone", "synonyms": ["androgen", "testim", "androderm"],
+      "smiles": "CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34C", "cid": 6013,
+      "formula": "C19H28O2", "mw": 288.43, "toxic": false,
+      "iupac": "17beta-hydroxyandrost-4-en-3-one", "cas": "58-22-0"
+    },
+    {
+      "name": "Doxorubicin", "synonyms": ["adriamycin", "rubex", "doxil"],
+      "smiles": "COc1cccc2C(=O)c3c(O)c4CC(O)(CC(=O)CO)Cc4c(O)c3C(=O)c12", "cid": 5284616,
+      "formula": "C27H29NO11", "mw": 543.52, "toxic": true,
+      "iupac": "doxorubicin", "cas": "23214-92-8"
+    },
+    {
+      "name": "Cisplatin", "synonyms": ["platinol", "cis-ddp", "platinol-aq"],
+      "smiles": "N.N.Cl[Pt]Cl", "cid": 84691,
+      "formula": "Cl2H6N2Pt", "mw": 300.05, "toxic": true,
+      "iupac": "cisplatin", "cas": "15663-27-1"
+    },
+    {
+      "name": "Amoxicillin", "synonyms": ["amoxil", "trimox", "moxatag"],
+      "smiles": "CC1(C)SC2C(NC(=O)C(N)c3ccc(O)cc3)C(=O)N2C1C(=O)O", "cid": 33613,
+      "formula": "C16H19N3O5S", "mw": 365.40, "toxic": false,
+      "iupac": "amoxicillin", "cas": "26787-78-0"
+    },
+    {
+      "name": "Atorvastatin", "synonyms": ["lipitor", "torvast"],
+      "smiles": "CC(C)c1n(CC(O)CC(O)CC(=O)O)c(C(=O)Nc2ccccc2)c(c1-c1ccc(F)cc1)C(=O)Nc1ccccc1", "cid": 60823,
+      "formula": "C33H35FN2O5", "mw": 558.64, "toxic": false,
+      "iupac": "atorvastatin", "cas": "134523-00-5"
+    },
+    {
+      "name": "Remdesivir", "synonyms": ["veklury", "gs-5734"],
+      "smiles": "CCC(CC)COC(=O)[C@@H](C)NP(=O)(OC[C@H]1O[C@@H]([C@H]([C@@H]1O)O)n1cnc2c(N)ncnc12)Oc1ccccc1", "cid": 121304016,
+      "formula": "C27H35N6O8P", "mw": 602.58, "toxic": false,
+      "iupac": "remdesivir", "cas": "1809249-37-3"
+    },
+    {
+      "name": "Penicillin G", "synonyms": ["benzylpenicillin", "pfizerpen"],
+      "smiles": "CC1(C)SC2C(NC(=O)Cc3ccccc3)C(=O)N2C1C(=O)O", "cid": 5743,
+      "formula": "C16H18N2O4S", "mw": 334.39, "toxic": false,
+      "iupac": "benzylpenicillin", "cas": "61-33-6"
+    },
+    {
+      "name": "Warfarin", "synonyms": ["coumadin", "jantoven"],
+      "smiles": "OC(=O)c1ccccc1OCC(=O)c1ccc(Cl)cc1", "cid": 54678486,
+      "formula": "C19H16O4", "mw": 308.33, "toxic": false,
+      "iupac": "warfarin", "cas": "81-81-2"
+    },
+    {
+      "name": "Diazepam", "synonyms": ["valium", "diastat", "vivol"],
+      "smiles": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21", "cid": 3016,
+      "formula": "C16H13ClN2O", "mw": 284.74, "toxic": false,
+      "iupac": "diazepam", "cas": "439-14-5"
+    },
+    {
+      "name": "Ethanol", "synonyms": ["alcohol", "ethyl alcohol", "drinking alcohol"],
+      "smiles": "CCO", "cid": 702,
+      "formula": "C2H6O", "mw": 46.07, "toxic": false,
+      "iupac": "ethanol", "cas": "64-17-5"
+    },
+    {
+      "name": "Benzene", "synonyms": ["benzol", "cyclohexatriene"],
+      "smiles": "c1ccccc1", "cid": 241,
+      "formula": "C6H6", "mw": 78.11, "toxic": true,
+      "iupac": "benzene", "cas": "71-43-2"
+    },
+    {
+      "name": "Formaldehyde", "synonyms": ["methanal", "formalin", "methylene oxide"],
+      "smiles": "C=O", "cid": 712,
+      "formula": "CH2O", "mw": 30.03, "toxic": true,
+      "iupac": "formaldehyde", "cas": "50-00-0"
+    },
+    {
+      "name": "Chloroform", "synonyms": ["trichloromethane", "methane trichloride"],
+      "smiles": "ClC(Cl)Cl", "cid": 6212,
+      "formula": "CHCl3", "mw": 119.38, "toxic": true,
+      "iupac": "trichloromethane", "cas": "67-66-3"
+    },
+    {
+      "name": "Dichloromethane", "synonyms": ["methylene chloride", "dcm"],
+      "smiles": "ClCCl", "cid": 6344,
+      "formula": "CH2Cl2", "mw": 84.93, "toxic": true,
+      "iupac": "dichloromethane", "cas": "75-09-2"
+    },
+    {
+      "name": "Omeprazole", "synonyms": ["prilosec", "losec", "zegerid"],
+      "smiles": "COc1ccc2[nH]c(S(=O)Cc3ncc(C)c(OC)c3C)nc2c1", "cid": 4594,
+      "formula": "C17H19N3O3S", "mw": 345.42, "toxic": false,
+      "iupac": "omeprazole", "cas": "73590-58-6"
+    },
+    {
+      "name": "Lisinopril", "synonyms": ["zestril", "prinivil"],
+      "smiles": "OC(=O)[C@@H](N)CCCCN[C@@H](CCc1ccccc1)C(=O)N1CCC[C@H]1C(=O)O", "cid": 5362119,
+      "formula": "C21H31N3O5", "mw": 405.49, "toxic": false,
+      "iupac": "lisinopril", "cas": "83915-83-7"
+    },
+    {
+      "name": "Sildenafil", "synonyms": ["viagra", "revatio"],
+      "smiles": "CCCC1=NN(C)C(=C1C(=O)c1ccc(S(=O)(=O)N2CCN(C)CC2)cc1)c1nc2c(cc1)c(=O)[nH]c(=O)n2", "cid": 135398744,
+      "formula": "C22H30N6O4S", "mw": 474.58, "toxic": false,
+      "iupac": "sildenafil", "cas": "139755-83-2"
+    },
+    {
+      "name": "Tamoxifen", "synonyms": ["nolvadex", "soltamox"],
+      "smiles": "CC(/C=C/c1ccc(OCCN(C)C)cc1)=C(\\c1ccccc1)c1ccccc1", "cid": 2733526,
+      "formula": "C26H29NO", "mw": 371.51, "toxic": false,
+      "iupac": "tamoxifen", "cas": "10540-29-1"
+    },
+    {
+      "name": "Methotrexate", "synonyms": ["rheumatrex", "trexall", "amethopterin"],
+      "smiles": "CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1", "cid": 126941,
+      "formula": "C20H22N8O5", "mw": 454.44, "toxic": true,
+      "iupac": "methotrexate", "cas": "59-05-2"
+    },
+    {
+      "name": "Naloxone", "synonyms": ["narcan", "evzio"],
+      "smiles": "O=C1CC[C@]23CC[C@@H]([C@H]1[C@@H]2OC3=O)N(CC=C)CC=C", "cid": 5284596,
+      "formula": "C19H21NO4", "mw": 327.37, "toxic": false,
+      "iupac": "naloxone", "cas": "465-65-6"
+    },
+    {
+      "name": "Fluoxetine", "synonyms": ["prozac", "sarafem", "selfemra"],
+      "smiles": "CNCCC(Oc1ccc(cc1)C(F)(F)F)c1ccccc1", "cid": 3386,
+      "formula": "C17H18F3NO", "mw": 309.33, "toxic": false,
+      "iupac": "fluoxetine", "cas": "54910-89-3"
+    }
+  ]
+}
