@@ -1,7 +1,7 @@
 # ToxScout AI 🧬
 *The Predictive & Explanatory Toxicology Engine for Modern Drug Discovery*
 
-![ToxScout AI Hero](https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=1200)
+![ToxScout AI Hero](imgonline-com-ua-resizeMPXpDU8B58aPwxq.jpg)
 
 ## Problem & Solution
 Traditional in-vivo (animal) toxicity testing pipelines cost an average of **$2M+ per compound** and require **18+ months** to clear pre-clinical stages. Worse yet, late-stage failures heavily dilute ROI. 
